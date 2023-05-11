@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+
+  "name": "Moodle pdf viewer",
+  "version": "0.1.0",
+  "description": "Moodle pdf viewer - created by Joel van der Boom",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Moodle pdf viewer"
+  },
+
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": [
+        "https://moodle2.cs.huji.ac.il/nu22/login/index.php?slevel=4",
+        "https://moodle2.cs.huji.ac.il/nu22/*"
+      ]
+    }
+  ]
+}
