@@ -14,8 +14,14 @@
     {
       "js": ["script.js"],
       "matches": [
+        "https://moodle2.cs.huji.ac.il/nu21/login/index.php?slevel=4",
+        "https://moodle2.cs.huji.ac.il/nu21/*",
         "https://moodle2.cs.huji.ac.il/nu22/login/index.php?slevel=4",
-        "https://moodle2.cs.huji.ac.il/nu22/*"
+        "https://moodle2.cs.huji.ac.il/nu22/*",
+        "https://moodle2.cs.huji.ac.il/nu23/login/index.php?slevel=4",
+        "https://moodle2.cs.huji.ac.il/nu23/*",
+        "https://moodle2.cs.huji.ac.il/nu24/login/index.php?slevel=4",
+        "https://moodle2.cs.huji.ac.il/nu24/*"
       ],
       "resources": ["./assets/eye-icon.png"]
     }
